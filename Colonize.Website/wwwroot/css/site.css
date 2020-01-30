@@ -69,3 +69,13 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+.carousel-control-next {
+    filter: invert(100%);
+    justify-content:flex-end;
+    width: 5%;
+}
+.carousel-control-prev {
+    filter: invert(100%);
+    justify-content:flex-start;
+    width: 5%;
+}
